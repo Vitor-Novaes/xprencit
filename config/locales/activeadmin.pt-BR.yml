@@ -1,0 +1,29 @@
+pt-BR:
+  activerecord:
+    models:
+      tour: "Tour"
+      testimonial: "Depoimento"
+      gallery: "Foto"
+    attributes:
+      tour:
+        local: "Local"
+        date_trip: "Data de viagem"
+        vacancy: "Vaga"
+        photo: "Foto"
+        description: "Descrição"
+        photo_file_name: "Nome do arquivo"
+        photo_updated_at: "Data de upload"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+      testimonial:
+        name: "Nome"
+        quote: "Citação"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
+      gallery:
+        title: "Título"
+        carousel: "Slide"
+        photo_file_name: "Nome do arquivo"
+        photo_updated_at: "Data de upload"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"

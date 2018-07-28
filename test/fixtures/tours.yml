@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  local: MyString
+  data: 2017-12-11 20:36:37
+  vagas: 1
+  photo: MyString
+  description: MyText
+
+two:
+  local: MyString
+  data: 2017-12-11 20:36:37
+  vagas: 1
+  photo: MyString
+  description: MyText

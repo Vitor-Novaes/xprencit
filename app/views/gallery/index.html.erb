@@ -1,0 +1,27 @@
+
+
+<div class = "container">
+  <section id="photos" class="parallax-section">
+  	<div class="container">
+  		<div class="row">
+  			<div class="wow bounceIn col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10 text-center animated" style="visibility: visible; animation-name: bounceIn;">
+  				<div class="section-title">
+  					<h2>Gallery</h2>
+  				</div>
+  			</div>
+      </div>
+        <% @galleries.each_slice(3) do |galleries| %>
+          <div class="row">
+            <% galleries.each do |gallery| %>
+              <div class="col-md-4 col-sm-12 fh5co-project animate-box " data-animate-effect="fadeIn">
+                <a href="<%= gallery.photo(:medium) %>" class="image-popup">
+                  <%= image_tag gallery.photo(:medium), class: "img-responsive" %>
+                  <h3><%= gallery.title %></h3>
+                </a>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+  		</div>
+  </section>
+</div>

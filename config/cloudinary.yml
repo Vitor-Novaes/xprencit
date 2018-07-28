@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: diutp7fxn
+  api_key: '515815621624671'
+  api_secret: QPlAcBeEapPj-_iqmXRA3dhmtjY
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: diutp7fxn
+  api_key: '515815621624671'
+  api_secret: QPlAcBeEapPj-_iqmXRA3dhmtjY
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: diutp7fxn
+  api_key: '515815621624671'
+  api_secret: QPlAcBeEapPj-_iqmXRA3dhmtjY
+  enhance_image_tag: true
+  static_image_support: false

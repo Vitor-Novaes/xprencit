@@ -1,0 +1,57 @@
+/*---------------------------------------
+   ABOUT section
+-----------------------------------------*/
+
+#about {
+	background: url('../images/ben-duchac-66002.jpg') 50% 0 repeat-y fixed;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	margin-top: 12rem;
+}
+
+#about h2,
+#about h4,
+#about p {
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+#about p {
+	padding-top: 12px;
+	padding-bottom: 18px;
+
+}
+
+.allcolums {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.colum1 {
+	float: left;
+	margin: 0px 15px 0px 15px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}
+
+.colum2 {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}
+
+.colum3 {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}

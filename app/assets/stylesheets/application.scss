@@ -1,0 +1,276 @@
+ @import "bootstrap.min";
+ @import "animate";
+ @import "magnific-popup";
+ @import "font-awesome.min";
+ @import "owl.theme.default.min";
+ @import "owl.carousel.min";
+ @import "flip";
+ @import "gallery";
+ @import "style";
+ @import "botoesDestaque";
+ @import "about";
+ @import "accommodation";
+ @import "investment";
+
+ body {
+  background: #222;
+ }
+
+ .navbar img {
+  height: 10vh;
+  width: auto;
+ }
+
+ // só pra commitar
+ 
+ #intro h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  color: white;
+ }
+
+ .textnavright {
+  padding-left: 70px;
+  padding-right: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  font-weight: auto;
+  display: inline-block;
+  color: #87d5b6 !important;
+
+ }
+
+ .text-right {
+  float: right;
+  color: black !important;
+  font-family: 'Permanent Marker', cursive;
+  font-size: auto;
+  font-weight: auto;
+ }
+
+
+ .navbar {
+  background-color: white!important;
+ }
+
+
+ .pre-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+  z-index: 99999;
+ }
+
+ .pre-loader .preloader-gif {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -40px 0 0 -40px; // background-color: black;
+  background: url('load.gif') no-repeat;
+ }
+
+ .img-icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; // margin: auto;
+ }
+
+ .icon-airplane {
+  background-image: url(icon/icon-airplane.svg);
+ }
+
+ .icon-bookshelf {
+  background-image: url(icon/icon-bookshelf.svg);
+ }
+
+ .icon-place {
+  background-image: url(icon/icon-place.svg);
+ }
+
+ #register option {
+  color: black
+ } //Ou outra cor escura
+ #register select {
+  color: white !important;
+ }
+
+
+ #intro h1,
+ #intro h2,
+ #intro h3,
+ #intro h4,
+ #intro h5,
+ #intro h6 {
+  text-shadow: 1px 1px black;
+ }
+
+ .nome_descritivo {
+  font-size: 300%
+ }
+
+
+
+ .sgo6_header {
+  background-color: black;
+ }
+
+ .sgo6_header i {
+  color: #61aef4;
+ }
+
+ .text-cap {
+  text-transform: capitalize;
+ }
+
+ .float-left {
+  float: left;
+ }
+
+ .float-right {
+  float: right;
+ }
+
+ #faq .row {
+  margin-left: 0px;
+  margin-right: 0px;
+
+ }
+
+ #detail .wow {
+  margin-left: 0px;
+ }
+
+ .accommodation img {
+  width: 850;
+  height: 566;
+ }
+
+ .hidden {
+  display: none;
+ }
+
+ /*flash*/
+
+ .alert-error {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+ }
+
+ .alert-alert {
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+ }
+
+ .alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+ }
+
+ .alert-notice {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+  text-align: left;
+ }
+
+
+ #detail .ion-ios-world {
+  font-size: 48px;
+ }
+
+ #intro {
+  padding-top: 14rem;
+ }
+
+ #venue,
+ #contactform,
+ #investmentpage {
+  //padding-top: 14rem;
+ }
+
+
+ .fancy {
+  margin: 20px auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border: solid #87d5b6 0.5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+ .margin-b-5 {
+  font-size: 17px!important;
+ }
+
+
+ .usit-footer {
+  clear: both;
+ }
+
+ .contact-icons {
+  padding-left: 3px;
+  padding-right: 3px;
+ }
+
+
+ .contact-socials {
+  width: 140px;
+ }
+
+ div.footer {
+  margin-bottom: 50px;
+ }
+
+
+ @media only screen and (max-width: 800px) {
+
+  .img-fluid {
+   width: 60%!important;
+   padding-bottom: 10px !important;
+  }
+
+
+  .nome_descritivo {
+   font-size: 300%;
+   text-align: center;
+  }
+ }
+
+ /* acommodation */
+
+ .tour-description {
+  position: relative;
+  float: right;
+  margin: .5em 0 0 .5em;
+  padding: 0 .7em .25em .7em;
+  width: 25em;
+  background-color: inherit;
+  border: 1px;
+ }
+
+ #next-trip,
+ #next-trip p {
+  color: black !important; // color: #ffffff;
+ }
+
+ #next-trip img {
+  margin: 30px 0px;
+ }
+ 

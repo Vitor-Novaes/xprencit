@@ -1,0 +1,62 @@
+// Place all the styles related to the investment controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+//
+/*---------------------------------------
+   INVESTMENTVENUE section
+-----------------------------------------*/
+
+#investmentvenue {
+	background: url('../images/richard-kumo-601011-unsplash (1).jpg') 50% 0 repeat-y fixed;
+	background-size: cover;
+	background-position: center center;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+	margin-top: 12rem;
+
+}
+
+#investmentvenue h2,
+#investmentvenue h4,
+#investmentvenue p {
+	text-shadow: 1px 1px black;
+	color: white;
+}
+
+#investmentvenue p {
+	padding-top: 12px;
+	padding-bottom: 18px;
+
+}
+
+.allcolums {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	height: 50vh;
+}
+
+
+.colum1 {
+	float: left;
+	margin: 0px 15px 0px 15px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}
+
+.colum2 {
+	float: left;
+	margin: 0px 15px 0px 0px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}
+
+.colum3 {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	text-align: justify;
+	width: 30%;
+	color: #87d5b6;
+}

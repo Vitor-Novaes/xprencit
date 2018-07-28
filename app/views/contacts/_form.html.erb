@@ -1,0 +1,36 @@
+<div class="row">
+  <div>
+    <% flash.each do |key, value| %>
+      <div>
+        <!-- <a href="#" data-dismiss="alert">×</a> -->
+          <%= value %>
+      </div>
+    <% end %>
+  </div>
+  <%= simple_form_for @contact, :html => {:class => '' } do |f| %>
+    <div class="contact_detail">
+      <div class="section-title">
+        <h2 class="text-center">Keep in touch</h2>
+      </div>
+      <div class="form-group col-md-offset-3 col-md-6">
+        <%= f.text_field :name, class: "form-control", id: "firstname", placeholder: "Full Name" %>
+      </div>
+      <div class="form-group col-md-offset-3 col-md-6">
+        <%= f.email_field :email, class: "form-control", id: "email", placeholder: "E-mail (name@example.com)" %>
+      </div>
+      <div class="form-group col-md-offset-3 col-md-3">
+        <%= f.telephone_field :phone, class: "form-control", id: "phone", placeholder: "Phone Number(Ex: 85 91234 4321)" %>
+      </div>
+      <div class="form-group col-md-3">
+        <%= f.select(:knowledge,[['Basic','Basic'],['Intermediate','Intermediate'],['Advanced', 'Advanced']],{}, {class:"form-control"})%>
+      </div>
+      <div class="form-group col-md-offset-3 col-md-6">
+        <%= f.text_area :message, id: "message", row: 10, class: "form-control",
+            placeholder: "Your experiences with the language" %>
+      </div>
+      <div class="form-group col-md-offset-3 col-md-6">
+        <%= f.submit "Send", class: "btn btn-primary col-xs-12 col-md-offset-6 col-md-6" %>
+      </div>
+    </div>
+  <% end %>
+</div>
